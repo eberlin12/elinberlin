@@ -1,7 +1,7 @@
 ---
 title: "Elin Berlin"
 about:
-  template: broadside
+  template: trestles
   image: Headshot.jpg
   links:
     - icon: twitter
