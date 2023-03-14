@@ -1,3 +1,24 @@
 ---
-title: "Elin's Website"
+title: "Elin Berlin"
+about:
+  template: trestles
+  image: Headshot.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/ElinBerlin3
+    - icon: github
+      text: Github
+      href: https://github.com/eberlin12
 ---
+
+Elin is a Political Science PhD student at the University of Maryland. Her research includes
+
+## Education
+
+University of Maryland | College Park, MD
+PhD in Political Science | August 2020 - Present
+
+Villanova University | Villanova, PA
+M.A in Political Science | August 2011 - May 2014
+
