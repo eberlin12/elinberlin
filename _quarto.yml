@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Elin Berlin's website"
+  title: " "
   navbar:
     left:
       - href: index.qmd
@@ -11,10 +11,13 @@ website:
       - href: research.qmd
         text: Research
       - href: about.qmd
-        text: About-me
+        text: CV
 
 format:
   html:
     theme: minty
     css: styles.css
     toc: true
+    
+website:
+  google-analytics: "UA-XXXXXXXX"

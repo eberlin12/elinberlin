@@ -1,5 +1,5 @@
 ---
 title: "My Document"
 format: html
-tbl-colwidths: [75,25]
+
 ---
