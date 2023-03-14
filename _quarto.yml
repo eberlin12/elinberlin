@@ -19,5 +19,3 @@ format:
     css: styles.css
     toc: true
     
-website:
-  google-analytics: "UA-XXXXXXXX"
