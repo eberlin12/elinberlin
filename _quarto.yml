@@ -10,7 +10,8 @@ website:
         text: Home
       - href: research.qmd
         text: Research
-
+      - href: about.qmd
+        text: About me
 
 format:
   html:
