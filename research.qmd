@@ -1,9 +1,10 @@
 ---
-title: "My Document"
+title: "Research"
 format: html
 ---
 
-## Articles
+
+## Current projects
 
 |          |                                                             |
 |----------|-------------------------------------------------------------|
