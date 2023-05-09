@@ -16,7 +16,7 @@ format: html
 <img src="Rplot.png" alt="GBV">
 ![Rplot](Rplot.png)
 
-```{r, echo=FALSE, header=FALSE, message=FALSE, results=‘asis’}
+```{r, echo=FALSE, header=FALSE, message=FALSE, results=‘asis’} 
 
 library(dplyr)
 library(tidytext)
