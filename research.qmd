@@ -11,3 +11,50 @@ format: html
 | Article1 | Description [link](https://eberlin12.github.io/elinberlin/) |
 | Article2 | Description [link](https://eberlin12.github.io/elinberlin/) |
 | Article3 | Description [link](https://eberlin12.github.io/elinberlin/) |
+
+
+```{r, echo=FALSE,}
+
+library(dplyr)
+library(tidytext)
+library(stringr)
+library(tidyverse)
+library(tm)
+library(broom)
+
+hbvENG <- read.csv("hbvENG.csv")
+pdf_converted <- Corpus(VectorSource(hbvENG)) %>%
+  DocumentTermMatrix()
+
+
+pdf_frame =pdf_converted %>%
+  tidy() %>%
+  filter(!grepl("[0-9]+", term))
+
+
+
+tidy_paragraphs <- hbvENG %>%
+  unnest_tokens(word, full_text)
+
+
+tidy_paragraphs <- tidy_paragraphs %>%
+  anti_join(stop_words)
+
+tidy_paragraphs %>%
+  count(word, sort = TRUE)
+
+#filter out words
+tidy_paragraphs <-tidy_paragraphs %>%
+  filter(!word %in% c("honour","killing", "rt","https","t.co", "3", "amp", '0bcd', "tweets", 'ii', '1843', '0bc1', '094d', '092a', '0939', '0947', "0b95", '0938', "0930", "0902", "093e", "0924"))
+
+
+library(wordcloud2)
+library(devtools)
+```
+
+```{r, echo=FALSE, results='asis'}
+
+t_para <- tidy_paragraphs %>%
+  count(word, sort = TRUE)
+wordcloud2(t_para)
+```
