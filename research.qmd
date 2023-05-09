@@ -13,6 +13,8 @@ format: html
 | Article3 | Description [link](https://eberlin12.github.io/elinberlin/) |
 
 
+![Elephant](Rplot.png)
+
 ```{r, echo=FALSE,}
 
 library(dplyr)
