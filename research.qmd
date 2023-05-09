@@ -14,6 +14,16 @@ format: html
 
 
 
-![Rplot](Rplot.png)
+## Project 1
 
+\par I am currently working on a projcet looking at how people talk about honor based violence on twitter. Honor based violence is salient issue in European politics, and I am interested in looking at how voters discuss the issue.I primarily look at countries in the EU, and have started out with looking at the United Kingdom in particular. 
+
+\par Below I created a word cloud based on 550 tweets from April 13, 2023. For the next part of this analysis I would like to conduct a larger sentiment analysis of the tweets, as well as plot the networks of who speaks about these issues. 
+
+![Rplot](Rplot.png)
+## Project 2
+
+The second part of my project is an analysis of Members of European Parliament (MEPs) tweets related to honor based violence and gender based violence. Below is a dendogram of the topics discussed:
+
+![Dendogram](Dendogram2.pdf)
 
