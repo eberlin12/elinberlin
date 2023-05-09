@@ -15,7 +15,7 @@ format: html
 
 ![Elephant](Rplot.png)
 
-```{r, echo=FALSE,}
+```{r, echo=FALSE, header=FALSE, message=FALSE, results=‘asis’}
 
 library(dplyr)
 library(tidytext)
@@ -54,7 +54,7 @@ library(wordcloud2)
 library(devtools)
 ```
 
-```{r, echo=FALSE, results='asis'}
+```{r, echo=FALSE, header=FALSE, message=FALSE, results=‘asis’}
 
 t_para <- tidy_paragraphs %>%
   count(word, sort = TRUE)
