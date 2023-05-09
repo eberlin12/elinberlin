@@ -13,7 +13,8 @@ format: html
 | Article3 | Description [link](https://eberlin12.github.io/elinberlin/) |
 
 
-![Elephant](Rplot.png)
+<img src="Rplot.png" alt="GBV">
+![Rplot](Rplot.png)
 
 ```{r, echo=FALSE, header=FALSE, message=FALSE, results=‘asis’}
 
